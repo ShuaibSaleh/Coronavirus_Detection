@@ -1,0 +1,93 @@
+/* Good  */
+
+.x0{
+
+    background-color: rgba(51, 51, 162, 0.844);
+}
+.container{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.x1{
+    color: bisque;
+    font-size: 35px;
+    width: 50%;
+    height: auto;
+    border-width: 8px;
+    border-color:  rgba(84, 84, 169, 0.5);
+    border-style: ridge;
+    
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.x2{
+    margin-block-start: 5%;
+    font-size: 20px;
+    color: blanchedalmond;
+    margin-left: 1%;
+
+}
+.x3{
+    margin-block-start: 5%;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-left: 70%;
+}
+
+
+/* HasCovid */
+
+.x4{
+
+    background-color: rgb(193, 35, 32);
+}
+.container{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.x5{
+    color: bisque;
+    font-size: 35px;
+    width: 50%;
+    height: auto;
+    border-width: 8px;
+    border-color:  rgba(191, 52, 49, 0.5);
+    border-style: ridge;
+    
+    text-align: center;
+    margin-left: 20%;
+}
+.x6{
+    font-size: 20px;
+    color: blanchedalmond;
+
+}
+
+.x7{
+    margin-top: 7%;
+    margin-right: 0%;
+    margin-left: 70%;
+}
+
+/* NotXrayImage */
+
+.x8{
+
+    background-color: rgba(0, 0, 0, 0.851);
+}
+.x9{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    width: 50%;
+    height: auto;
+    border-width: 8px;
+    border-color:  rgba(255, 255, 255, 0.688);
+    border-style: ridge;
+    
+    text-align: center;
+    margin-left: 25%;
+    margin-left: 25%;
+}

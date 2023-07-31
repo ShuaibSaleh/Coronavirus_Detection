@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width,intial-scale = 1.0">
+        <title>Covid-19 Test</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">-->  
+        
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="http://127.0.0.1:5000/"><img src="{{url_for('static', filename = 'images/COVID-19_Response_Logo_Languages_White_EN.png')}}" alt="covid logo"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+                        
+                        <li><a href="http://127.0.0.1:5000/xraytest">X-Ray Test</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+            <h1>Test COVID-19</h1>
+            <p>This site is for testing Chest X-Rays and determining whether patient has coronavirus or not.</p>
+            
+        </section>
+
+        <!--content-->
+        <section class="content">
+            <div class="row">
+                <div class="content-col">
+                    <h2>Checking</h2>
+                    <p>So to check the image please upload it in the following form:</p>
+                    <div class ="content-col">
+                        <form action="http://127.0.0.1:5000/xraytest" method="post" enctype="multipart/form-data">
+                            <label for="myfile" >Select X-Ray image:</label> 
+                            <input type="file" id="myfile" name="myfile" class="form-control" autocomplete="off" accept="image/*" required="required"
+                             style="text-align: center ; font-size: 15px; background-color: rgba(36, 81, 164, 0.532);">
+                            <input type="submit"value="Submit" class="btn btn-info"
+                             style="width: 150px ;  height: 30px; margin-top: 2% ; font-size: 15px; border-radius: 20%; background: rgb(250, 252, 252);"   >
+                        </form>
+                    </div>
+                    <!--<a href="">TEST</a>-->
+                </div>
+                
+                <div class="content-col">
+                    <img src="{{url_for('static', filename = 'images/colynary-media-TB8eQjc3_WE-unsplash.jpg')}}">
+                </div>
+                
+                <!-- <div></div> -->
+
+            </div>
+        </section>
+        
+        <!--footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>To know more see the social page or call us</p>
+            <div class="icons">
+                <img src="{{url_for('static', filename = 'images/facebook.png')}}" width="30px">
+                <img src="{{url_for('static', filename = 'images/telephone.png')}}" width="28px">
+            </div>
+
+        </section>
+        
+    </body>
+</html>

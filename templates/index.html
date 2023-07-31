@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width,intial-scale = 1.0">
+        <title>Covid-19 Test</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">-->   
+       
+        
+    </head>
+    <body>
+        <section class="header">
+            
+            
+            
+            <nav>
+                <a href="http://127.0.0.1:5000/"><img src="{{ url_for('static', filename = 'images/COVID-19_Response_Logo_Languages_White_EN.png')}}" alt="covid logo"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+                        
+                        <li><a href="http://127.0.0.1:5000/xraytest">X-Ray Test</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+            <div class="text">
+                <h1>COVID-19</h1>
+                <p>COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization</p>
+                <a href="" class="more-btn">Visit us to know more</a>
+            </div>
+        </section>
+        <!--detials-->
+        <section class="Details">
+            <h1>Coronavirus Disease</h1>
+            <p> is an infectious disease caused by the SARS-CoV-2 virus.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>How it spreads</h3>
+                    <p>The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. 
+                        These particles range from larger respiratory droplets to smaller aerosols.
+                        You can be infected by breathing in the virus if you are near someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
+                         The virus spreads more easily indoors and in crowded settings.</p>
+                    
+                </div>
+                <div class="course-col">
+                    <h3>How to protect yourself</h3>
+                    <p>
+                        Keep your hands clean and away from your face.
+                        Wash your hands with soap and water often for at least 20 seconds.
+                        Wear a face mask.
+                        Clean your home often.
+                        Avoid direct contact with the sick person's fluids
+                        Avoid having visitors in your home.
+                    </p>
+                    
+                </div>
+                <div class="course-col">
+                    <h3>Here are some tips to keep your lungs healthy</h3>
+                    <p>
+                        Don't Smoke,
+                        Avoid Exposure to Indoor Pollutants That Can Damage Your Lungs,
+                        Minimize Exposure to Outdoor Air Pollution,
+                        Prevent Infection,
+                        Get Regular Check-ups and
+                        Exercise.
+                    </p>
+                    
+                </div>
+            </div>
+
+
+        </section>
+        <!--counteries-->
+
+        <section class="spreading">
+            <h1>Our Facilities</h1>
+            <p>In Egypt, from 3 January 2020 to 7:28pm CEST, 19 May 2022, there have been 513,881 confirmed cases of COVID-19 with 24,690 deaths, reported to WHO. As of 14 May 2022, a total of 82,828,973 vaccine doses have been administered
+                and there are some facilities to make X-Ray scans.
+            </p>
+            <div class="row">
+                <div class="spreading-col">
+                    <img src="{{ url_for('static', filename = 'images/alfa labs.png')}}" >
+                </div>
+                <div class="spreading-col">
+                    <img src="{{ url_for('static', filename = 'images/index.png')}}" >
+                </div>
+                <div class="spreading-col">
+                    <img src="{{ url_for('static', filename = 'images/index.jpg')}} " >
+                </div>
+            </div>
+        </section>
+        <!--call to action-->
+        <section class="Action">
+            <h1>Enroll For The X-Ray Test</h1>
+            <a href="" class="more-btn">CONTACT US</a>
+            
+        </section>
+
+        <!--footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>To know more see the social page or call us</p>
+            <div class="icons">
+                <img src="{{url_for('static', filename = 'images/facebook.png')}}" width="30px">
+                <img src="{{url_for('static', filename = 'images/telephone.png')}}" width="28px">
+            </div>
+        </section>
+        
+    </body>
+</html>
