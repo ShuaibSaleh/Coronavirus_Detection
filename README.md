@@ -1,5 +1,5 @@
 # X-ray diagnosis
-- This project is an artificial intelligence based on recognizing x-ray images and determining whether a person has COVID-19 or not
+-  Web App Detect Whether The Patient Has Coronavirus or Not from The Uploaded Chest X-Ray Image Based on CNN Model.
 
 <br>
 
