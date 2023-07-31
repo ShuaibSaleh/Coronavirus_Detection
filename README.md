@@ -1,4 +1,4 @@
-# X-ray diagnosis
+# X-Ray Diagnosis
 -  Web App Detect Whether The Patient Has Coronavirus or Not from The Uploaded Chest X-Ray Image Based on CNN Model.
 
 <br>
