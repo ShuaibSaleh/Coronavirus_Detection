@@ -3,7 +3,7 @@
 
 <br>
 
-# team members 
+# Team members 
   
 | N             | Name          |
 | ------------- | ------------- |
